@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/background"
+    tools:context=".FormLogin">
+
+    <TextView
+        android:id="@+id/myListTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="MyList"
+        android:textColor="@color/green"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mylistSubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Crie sua lista de séries e filmes"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myListTitle" />
+
+    <TextView
+        android:id="@+id/textSign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Sign in"
+        android:textColor="@color/green"
+        android:layout_marginTop="70dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/viewSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mylistSubTitle" />
+
+    <View
+        android:id="@+id/viewSign"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/container_components"
+        android:elevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSign" />
+
+    <EditText
+        android:id="@+id/editName"
+        style="@style/Edit_Form"
+        android:drawableRight="@drawable/ic_person"
+        android:elevation="2dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@id/viewSign"
+        app:layout_constraintStart_toStartOf="@id/viewSign"
+        app:layout_constraintTop_toTopOf="@+id/viewSign" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        style="@style/Edit_Form"
+        android:drawableRight="@drawable/ic_email"
+        android:elevation="2dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@id/viewSign"
+        app:layout_constraintStart_toStartOf="@id/viewSign"
+        app:layout_constraintTop_toBottomOf="@+id/editName" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        style="@style/Edit_Form"
+        android:drawableRight="@drawable/ic_password"
+        android:elevation="2dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@id/viewSign"
+        app:layout_constraintStart_toStartOf="@id/viewSign"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        style="@style/Button_Form"
+        android:elevation="2dp"
+        android:text="Sign"
+        app:layout_constraintEnd_toEndOf="@id/viewSign"
+        app:layout_constraintStart_toStartOf="@id/viewSign"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewSign"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
