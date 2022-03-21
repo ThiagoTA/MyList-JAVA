@@ -1,8 +1,10 @@
-package com.thiagoteixeiraalmeida.mylist;
+package com.thiagoteixeiraalmeida.mylist.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.thiagoteixeiraalmeida.mylist.R;
 
 public class FormSignUp extends AppCompatActivity {
 

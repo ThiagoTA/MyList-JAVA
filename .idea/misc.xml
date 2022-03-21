@@ -7,9 +7,12 @@
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/drawable/button_form.xml" value="0.2765" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/drawable/container_components.xml" value="0.2765" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/drawable/container_user.xml" value="0.2765" />
+        <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/drawable/poster_image.xml" value="0.2765" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/activity_form_login.xml" value="0.26992753623188404" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/activity_form_sign_up.xml" value="0.278125" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/activity_main.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/movies_popular_adapter.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/recommendations_adapter.xml" value="0.5" />
       </map>
     </option>
   </component>

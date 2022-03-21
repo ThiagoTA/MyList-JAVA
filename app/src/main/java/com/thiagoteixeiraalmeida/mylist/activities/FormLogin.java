@@ -1,4 +1,4 @@
-package com.thiagoteixeiraalmeida.mylist;
+package com.thiagoteixeiraalmeida.mylist.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.thiagoteixeiraalmeida.mylist.R;
 
 public class FormLogin extends AppCompatActivity {
 
