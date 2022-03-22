@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,26 +18,11 @@
 
         <TextView
             android:id="@+id/myListTitle"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="30dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="MyList"
-            android:textColor="@color/green"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            style="@style/Text_Logo_Min" />
 
         <EditText
             android:id="@+id/editSearch"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="30dp"
-            android:drawableLeft="@drawable/ic_search"
-            android:hint="Search"
-            android:minHeight="48dp"
-            android:textSize="16sp"
-            tools:ignore="TouchTargetSizeCheck" />
+            style="@style/Search"/>
 
     </LinearLayout>
 

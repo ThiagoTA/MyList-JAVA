@@ -11,8 +11,11 @@
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/activity_form_login.xml" value="0.26992753623188404" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/activity_form_sign_up.xml" value="0.278125" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/activity_main.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/activity_search.xml" value="0.26992753623188404" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/movies_popular_adapter.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/popular_adapter.xml" value="0.2203125" />
         <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/recommendations_adapter.xml" value="0.5" />
+        <entry key="..\:/Users/Thiago/AndroidStudioProjects/MyList/app/src/main/res/layout/search_adapter.xml" value="0.26992753623188404" />
       </map>
     </option>
   </component>
